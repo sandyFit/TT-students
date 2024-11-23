@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0e7490;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;   
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.student-form {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-top: 1.2rem;
+    font-size: .88rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #dcf5f8;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+input:focus {
+    border: 2px solid #06b6d4;
+}
+
+button {
+    width: 20rem;
+    margin-top: 1.6rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #0e7490;
+    color: aliceblue;
+    font-size: .88rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #0891b2;
+}
+
+.article-container {
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.failed-container {
+    margin-top: 2rem;
+}
+
+.alert {
+    width: 30%;
+    color: #0d9488;
+    background-color: #ccfbf1;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    top: 1rem;   
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+.message {
+    margin: .8rem 0;
+}
+
+.table-container {
+    width: 54.5%;
+    margin-top: 4rem;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#students-table {
+    width: 100%;
+    margin-top: .4rem;
+    margin-bottom: 3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: #0e7490;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+
